@@ -78,7 +78,7 @@ python web_demo.py --from_pretrained checkpoints/checkpoint_WaferGLM_6000
 
 <img src='./examples/logo-name.e9292edc.png' width=60%>
 
-这项工作由[清华大学可靠性与质量研究院](https://iqr.tsinghua.edu.cn/)**博士生[王欢]**(http://huanwang.online/) 和电子科技大学**李晨希**完成，**指导老师为[李彦夫]**(http://www2.ie.tsinghua.edu.cn/liyanfu/)教授。
+这项工作由[清华大学可靠性与质量研究院](https://iqr.tsinghua.edu.cn/)**博士生王欢**(http://huanwang.online/) 和电子科技大学**李晨希**完成，指导老师为**李彦夫教授**(http://www2.ie.tsinghua.edu.cn/liyanfu/) 。
 
 
 ## 免责声明
