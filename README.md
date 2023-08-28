@@ -1,66 +1,23 @@
-# WaferGLM
+# Defect-GLM
 
 ## 介绍
+最近，建立在通用语料下预训练的多模态大模型，如GPT-4和ViusalGLM，在日常生活领域展现出了优越的问答与图像语义理解能力。这些模型强大的知识储备、图像和语义理解能力和逻辑推理能力，让人们看到了通用人工智能的希望。这使得多模态大模型在很多领域展示出了革命性的应用潜力，并且其有望变革工业设备智能运维领域的应用范式，推动构建智能化和自动化的工业设备运营维护系统，并降低设备监测、运营和维护所需要的人力成本。为实现这一点，基于VisualGLM模型，我们开发了Defect-GLM来探索多模态大模型在工业缺陷检测领域的研究和应用。此外，我们构建了一个大规模的图像-文本的半导体晶圆缺陷数据集，以作为Defect-GLM案例验证数据集。Defect-GLM在半导体晶圆缺陷识别与分析应用上表现出了非凡的潜力，在实验数据集中够达到96%的识别准确率。
 
-最近，建立在通用语料下预训练的多模态大模型，如GPT-4和ViusalGLM，在日常生活领域展现出了优越的问答与图像语义理解能力。然而，在工业领域由于缺乏优质数据集等原因，缺少针对该特殊场景下的多模态大模型研究。为此，我们使用开源工业数据集并结合问答语料设计与生成的微调范式，开发出了`WaferGLM`。`WaferGLM`是对于通用多模态大模型在晶圆缺陷检测这一工业高垂直领域的初步尝试，`WaferGLM`在晶圆缺陷识别与诊断上表现出了不错的能力，且在实验数据集中够达到96%的准确率。
-
-
- <p align="center">
-      <a href='https://github.com/WangRongsheng/XrayGLM'>
-            <img src='https://img.shields.io/badge/Project-Page-Green'>
-      </a>
-      <a href='https://github.com/WangRongsheng/XrayGLM'>
-            <img src='https://img.shields.io/badge/Paper-Arxiv-red'>
-      </a>
-      <a href="https://colab.research.google.com/drive/1aR8SSaseyprsxnor-gDyMo96V9jD7iGP?usp=sharing">
-        <img alt="GitHub Contributors" src="https://colab.research.google.com/assets/colab-badge.svg" />
-      </a>
-      <a href='https://huggingface.co/wangrongsheng'>
-        <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
-      </a>
-      </br>
-      <a href="https://github.com/WangRongsheng/XrayGLM/graphs/contributors">
-        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/WangRongsheng/XrayGLM" />
-      </a>
-      <a href="https://github.com/WangRongsheng/XrayGLM/issues">
-        <img alt="Issues" src="https://img.shields.io/github/issues/WangRongsheng/XrayGLM?color=0088ff" />
-      </a>
-      <a href="https://github.com/WangRongsheng/XrayGLM/pulls">
-        <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/WangRongsheng/XrayGLM?color=0088ff" />
-      </a>
-      <a href=href="https://github.com/WangRongsheng/XrayGLM/stargazers">
-        <img src="https://img.shields.io/github/stars/WangRongsheng/XrayGLM?color=ccf">
-      </a>
-      <a href=href="https://github.com/WangRongsheng/XrayGLM">
-        <img src="https://img.shields.io/github/repo-size/WangRongsheng/XrayGLM.svg?style=flat-square">
-      </a>
-      </br>
-      <a href=href="https://github.com/WangRongsheng/XrayGLM">
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=https://github.com/WangRongsheng/XrayGLM">
-      </a>
-      <a href=href="https://github.com/WangRongsheng/XrayGLM">
-        <img src="https://img.shields.io/github/last-commit/WangRongsheng/XrayGLM">
-      </a>
-      <a href="https://github.com/WangRongsheng/XrayGLM/blob/main/LICENSE">
-        <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
-      </a>
-  </p>
-
-
-## 本文贡献
+## 本项目贡献
 
 <div align=center>
   <img src='./examples/demonstrate_1.jpg'>
 </div>
 
-- 借助开源晶圆数据集，并结合ChatGPT生成与人工设计的方式，我们构建了一个晶圆缺陷诊断多模态数据集；
-- 我们使用了构建的晶圆多模态数据集在[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)进行微调训练，并初步尝试了该范式在工业垂直场景下的可行性；
+- 本项目探索了多模态大模型在工业缺陷检测领域的研究和应用，实现了基于多模态大模型的半导体晶圆缺陷识别和分析；
+- 本项目借助开源晶圆数据集，并结合ChatGPT生成与人工设计的方式，构建了一个半导体晶圆缺陷诊断多模态数据集；
+- 本项目使用所构建的晶圆多模态数据集在[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)进行微调训练，并展示出了非凡的性能和潜力。
   
 ## 使用的开源数据集
 
 - [Mixed-type Wafer Defect Datasets](https://www.kaggle.com/datasets/co1d7era/mixedtype-wafer-defect-datasets)是一个开源晶圆缺陷数据集，共包括38种不同缺陷类型的38015张晶圆图片。
 
-注意该公开数据集的原始数据类型并不直接适用于多模态模型训练。因此需要对数据集种晶圆图片进行合适的预处理，并结合ChatGPT生成与人工设计等方式获得问答语料，最终结合语料与预处理晶圆数据才得到了可以训练的多模态微调数据集。
+- 注意该公开数据集的原始数据类型并不直接适用于多模态模型训练。因此需要对数据集种晶圆图片进行合适的预处理，并结合ChatGPT生成与人工设计等方式获得问答语料，最终结合语料与预处理晶圆数据才得到了可以训练的多模态微调数据集。
 
 ## 使用
 
