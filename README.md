@@ -74,11 +74,11 @@ python web_demo.py --from_pretrained checkpoints/checkpoint_WaferGLM_6000
 
 ## 项目致谢
 
-1. 感谢[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的开源多模态大模型，并提供相关技术支持。
+感谢[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的开源多模态大模型，并提供相关技术支持。
 
-<img src='./examples/logo-name.e9292edc.png'>
+<img src='./examples/logo-name.e9292edc.png' style="max-width: 70%;">
 
-这项工作由[清华大学可靠性与质量研究院](https://iqr.tsinghua.edu.cn/)博士生[王欢](http://huanwang.online/) 和电子科技大学李晨希完成，指导老师为[李彦夫](http://www2.ie.tsinghua.edu.cn/liyanfu/)教授。
+这项工作由[清华大学可靠性与质量研究院](https://iqr.tsinghua.edu.cn/)**博士生[王欢]**(http://huanwang.online/) 和电子科技大学**李晨希**完成，**指导老师为[李彦夫]**(http://www2.ie.tsinghua.edu.cn/liyanfu/)教授。
 
 
 ## 免责声明
