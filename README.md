@@ -79,9 +79,10 @@ python web_demo.py --from_pretrained checkpoints/checkpoint_WaferGLM_6000
 
 感谢[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供基础的开源多模态大模型和相关技术支持。
 
-感谢Wang et al. [1] 提供开源的晶圆缺陷检测数据集[Mixed-type Wafer Defect Datasets](https://www.kaggle.com/datasets/co1d7era/mixedtype-wafer-defect-datasets)
+感谢Wang et al. [1] 提供开源的晶圆缺陷检测数据集[Mixed-type Wafer Defect Datasets](https://www.kaggle.com/datasets/co1d7era/mixedtype-wafer-defect-datasets) 。
 
 [1] J. Wang, C. Xu, Z. Yang, J. Zhang and X. Li, "Deformable Convolutional Networks for Efficient Mixed-type Wafer Defect Pattern Recognition," in IEEE Transactions on Semiconductor Manufacturing, DOI: 10.1109/TSM.2020.3020985.
+
 
 <img src='./examples/logo-name.e9292edc.png' width=60%>
 
