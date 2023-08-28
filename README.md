@@ -76,27 +76,36 @@ python web_demo.py --from_pretrained checkpoints/checkpoint_WaferGLM_6000
 
 感谢[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的开源多模态大模型，并提供相关技术支持。
 
-<img src='./examples/logo-name.e9292edc.png' style="max-width: 70%;">
+<img src='./examples/logo-name.e9292edc.png' width=60%>
 
 这项工作由[清华大学可靠性与质量研究院](https://iqr.tsinghua.edu.cn/)**博士生[王欢]**(http://huanwang.online/) 和电子科技大学**李晨希**完成，**指导老师为[李彦夫]**(http://www2.ie.tsinghua.edu.cn/liyanfu/)教授。
 
 
 ## 免责声明
 
-本项目相关资源仅供学术研究之用，严禁用于商业用途。使用涉及第三方代码的部分时，请严格遵循相应的开源协议。模型生成的内容受模型计算、随机性和量化精度损失等因素影响，本项目无法对其准确性作出保证。即使本项目模型输出符合医学事实，也不能被用作实际医学诊断的依据。对于模型输出的任何内容，本项目不承担任何法律责任，亦不对因使用相关资源和输出结果而可能产生的任何损失承担责任。
+本项目相关资源仅供学术研究之用，严禁用于商业用途。使用涉及第三方代码的部分时，请严格遵循相应的开源协议。模型生成的内容受模型计算、随机性和量化精度损失等因素影响，本项目无法对其准确性作出保证。对于模型输出的任何内容，本项目不承担任何法律责任，亦不对因使用相关资源和输出结果而可能产生的任何损失承担责任。
 
 ## 项目引用
 
 如果你使用了本项目的模型，数据或者代码，请声明引用：
 
 ```bash
-@misc{wang2023XrayGLM,
-      title={XrayGLM: The first Chinese Medical Multimodal Model that Chest Radiographs Summarization}, 
-      author={Rongsheng Wang, Yaofei Duan, Junrong Li, Patrick Pang and Tao Tan},
+@misc{Wang2023LSF-Model,
+      title={ChatGPT-Like Large-Scale Foundation Models for Prognostics and Health Management: A Survey and Roadmaps}, 
+      author={Yan-Fu Li*, Huan Wang* and Muxia Sun},
+      year={2023},
+      publisher = {ArXiv Preprint},
+      journal = {ArXiv Preprint},
+      howpublished = {\url{https://arxiv.org/abs/2305.06472}},
+}
+
+@misc{Wang2023Defect-GLM,
+      title={A Large-Scale Visual-Language Model for Industrial Defect Monitoring}, 
+      author={Huan Wang, Chenxi Li, and Yan-Fu Li*},
       year={2023},
       publisher = {GitHub},
       journal = {GitHub repository},
-      howpublished = {\url{https://github.com/WangRongsheng/XrayGLM}},
+      howpublished = {\url{https://github.com/WH-HuanWang/Defect-GLM}},
 }
 ```
 
