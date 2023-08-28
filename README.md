@@ -1,4 +1,4 @@
-# Defect-GLM
+![image](https://github.com/WH-HuanWang/Defect-GLM/assets/59675560/c438bfc0-cd91-4b54-b5a0-de3d56b6eb1f)# Defect-GLM
 
 ## 介绍
 
@@ -76,11 +76,10 @@ python web_demo.py --from_pretrained checkpoints/checkpoint_WaferGLM_6000
 
 1. 感谢[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供了基础的开源多模态大模型，并提供相关技术支持。
 
-![](.[https://iqr.tsinghua.edu.cn/img/logo-name.e9292edc.png])
+![](.[./examples/logo-name.e9292edc.png])
 
-这项工作由[澳门理工大学应用科学学院](https://www.mpu.edu.mo/esca/zh/index.php)硕士生[王荣胜](https://github.com/WangRongsheng) 、[段耀菲](https://github.com/IsBaSO4) 、[李俊蓉](https://github.com/lijunrong0815)完成，指导老师为檀韬副教授、[彭祥佑](http://www.patrickpang.net/)老师。
+这项工作由[清华大学可靠性与质量研究院](https://www.mpu.edu.mo/esca/zh/index.php)博士生[王欢](https://github.com/WangRongsheng) 和电子科技大学[段耀菲](https://github.com/IsBaSO4) 、[李俊蓉](https://github.com/lijunrong0815)完成，指导老师为[李彦夫](http://www.patrickpang.net/)教授。
 
-*特别鸣谢：[USTC-PhD Yongle Luo](https://github.com/kaixindelele) 提供了有3000美金的OpenAI账号，帮助我们完成大量的X光报告翻译工作
 
 ## 免责声明
 
