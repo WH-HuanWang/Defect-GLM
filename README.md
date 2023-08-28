@@ -20,7 +20,6 @@
 ## 使用的开源数据集
 
 [Mixed-type Wafer Defect Datasets](https://www.kaggle.com/datasets/co1d7era/mixedtype-wafer-defect-datasets)是一个开源晶圆缺陷数据集，共包括38种不同缺陷类型的38015张晶圆图片。
-J. Wang, C. Xu, Z. Yang, J. Zhang and X. Li, "Deformable Convolutional Networks for Efficient Mixed-type Wafer Defect Pattern Recognition," in IEEE Transactions on Semiconductor Manufacturing, DOI: 10.1109/TSM.2020.3020985.
 
 注意该公开数据集的原始数据类型并不直接适用于多模态模型训练。因此需要对数据集种晶圆图片进行合适的预处理，并结合ChatGPT生成与人工设计等方式获得问答语料，最终结合语料与预处理晶圆数据才得到了可以训练的多模态微调数据集。
 
@@ -79,6 +78,10 @@ python web_demo.py --from_pretrained checkpoints/checkpoint_WaferGLM_6000
 ## 项目致谢
 
 感谢[VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B)为我们提供基础的开源多模态大模型和相关技术支持。
+
+感谢Wang et al. [1] 提供开源的晶圆缺陷检测数据集[Mixed-type Wafer Defect Datasets](https://www.kaggle.com/datasets/co1d7era/mixedtype-wafer-defect-datasets)
+
+[1] J. Wang, C. Xu, Z. Yang, J. Zhang and X. Li, "Deformable Convolutional Networks for Efficient Mixed-type Wafer Defect Pattern Recognition," in IEEE Transactions on Semiconductor Manufacturing, DOI: 10.1109/TSM.2020.3020985.
 
 <img src='./examples/logo-name.e9292edc.png' width=60%>
 
