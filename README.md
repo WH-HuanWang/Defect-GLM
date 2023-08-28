@@ -43,7 +43,7 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ --no-deps "SwissArmyTrans
 
 |模型权重|下载链接|微调方法|
 |:-|:-|:-|
-|checkpoint-WaferGLM-6000|<a href='https://huggingface.co/YefriL/WaferGLM'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|LoRA|
+|checkpoint-DefectGLM-6000|<a href='https://huggingface.co/YefriL/WaferGLM'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>|LoRA|
 
 ### CLI推理
 
