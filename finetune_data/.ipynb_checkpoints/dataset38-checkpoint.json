@@ -1,0 +1,187 @@
+[
+	  {
+		"img": "finetune_data/33912.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This wafer looks good! It's labeled as 'Normal' which means there are no defects to worry about."
+	  },
+	  {
+		"img": "finetune_data/0.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' 'Edge loc' and 'Scratch' defects, with defective dies concentrated in both the center and in a regional pattern on the edge of the wafer map, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/2000.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' and 'Edge loc' defects, with defective dies concentrated in both the center and edge regions of the wafer map."
+	  },
+	  {
+		"img": "finetune_data/3152.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' 'Edge ring' and 'Scratch' defects, with defective dies concentrated in both the center and around the circle of the wafer map, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/4109.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' and 'Edge ring' defects, with defective dies concentrated in both the center and around the circle of the wafer map."
+	  },
+	  {
+		"img": "finetune_data/5045.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' 'Loc,' 'Edge loc' and 'Scratch' defects, with defective dies concentrated in both the center and in a frequently occurred regional pattern, as well as in a regional pattern on the edge of the wafer map and in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/6825.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' 'Edge loc' and 'Loc' defects, with defective dies concentrated in both the center and in a regional pattern on the edge of the wafer map, as well as in a frequently occurred regional pattern."
+	  },
+	  {
+		"img": "finetune_data/7274.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' 'Loc' 'Edge ring' and 'Scratch' defects, with defective dies concentrated in both the center and in a frequently occurred regional pattern, as well as around the circle of the wafer map and in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/8257.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' 'Edge ring' and 'Loc' defects, with defective dies concentrated in both the center and around the circle of the wafer map, as well as in a frequently occurred regional pattern."
+	  },
+	  {
+		"img": "finetune_data/9194.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' 'Loc' and 'Scratch' defects, with defective dies concentrated in both the center and in a frequently occurred regional pattern, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/10663.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' and 'Loc' defects, with defective dies concentrated both in the center and in a frequently occurred regional pattern on the wafer map."
+	  },
+	  {
+		"img": "finetune_data/11199.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Center' and 'Scratch' defects, with defective dies distributed in both a long narrow area and concentrated in the center of the wafer map."
+	  },
+	  {
+		"img": "finetune_data/12225.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "The defective dies are concentrated in the center of this wafer map, which may be caused by abnormal center temperature during implant operation, leading to the classification as 'Center' defect."
+	  },
+	  {
+		"img": "finetune_data/13385.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' 'Edge loc' and 'Scratch' defects, with defective dies forming a ring structure and distributed in a regional pattern on the edge of the wafer map, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/14499.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' and 'Edge loc' defects, with defective dies forming a ring structure and distributed in a regional pattern on the edge of the wafer map."
+	  },
+	  {
+		"img": "finetune_data/15081.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' 'Edge ring' and 'Scratch' defects, with defective dies forming a ring structure and distributed around the circle of the wafer map, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/16240.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' and 'Edge ring' defects, with defective dies forming a ring structure and distributed around the circle of the wafer map."
+	  },
+	  {
+		"img": "finetune_data/17087.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' 'Loc' 'Edge loc' and 'Scratch' defects, with defective dies forming a ring structure and distributed in a frequently occurred regional pattern, as well as in a regional pattern on the edge of the wafer map and in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/18560.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' 'Edge loc' and 'Loc' defects, with defective dies forming a ring structure and distributed in a regional pattern on the edge of the wafer map, as well as in a frequently occurred regional pattern."
+	  },
+	  {
+		"img": "finetune_data/19095.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' 'Loc' 'Edge ring' and 'Scratch' defects, with defective dies forming a ring structure and distributed in a frequently occurred regional pattern, as well as around the circle of the wafer map and in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/20300.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' 'Edge ring' and 'Loc' defects, with defective dies forming a ring structure and distributed around the circle of the wafer map, as well as in a frequently occurred regional pattern."
+	  },
+	  {
+		"img": "finetune_data/21191.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' 'Loc' and 'Scratch' defects, with defective dies forming a ring structure and distributed in a frequently occurred regional pattern, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/22084.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' and 'Loc' defects, with defective dies forming a ring structure and also occurring in a frequently occurred regional pattern on the wafer map."
+	  },
+	  {
+		"img": "finetune_data/23600.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Dount' and 'Scratch' defects, with defective dies forming a ring structure and also distributed in a long narrow area on the wafer map."
+	  },
+	  {
+		"img": "finetune_data/24671.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "The defective dies form a ring structure in this wafer map, which may be caused by inaccurate chemical mechanical polishing, leading to the classification as 'Dount' defect."
+	  },
+	  {
+		"img": "finetune_data/25295.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This regional defect pattern appears on the edge of the wafer map, possibly resulting from pollution during fabrication, leading to the classification as 'Edge-loc' defect."
+	  },
+	  {
+		"img": "finetune_data/26500.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This global defect exhibits defective dies distributed around the circle of the wafer map, indicating an 'Edge-ring' defect pattern."
+	  },
+	  {
+		"img": "finetune_data/27214.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Edge loc' 'Loc' and 'Scratch' defects, with defective dies distributed both in a regional pattern on the edge of the wafer map and in a frequently occurred regional pattern, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/28150.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Edge loc' and 'Loc' defects, with defective dies distributed both in a regional pattern on the edge of the wafer map and in a frequently occurred regional pattern."
+	  },
+	  {
+		"img": "finetune_data/29996.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Edge ring' 'Loc' and 'Scratch' defects, with defective dies distributed both around the circle of the wafer map and in a frequently occurred regional pattern, as well as in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/30005.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Edge ring' and 'Loc' defects, with defective dies distributed both around the circle of the wafer map and in a frequently occurred regional pattern."
+	  },
+	  {
+		"img": "finetune_data/31139.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Loc' and 'Scratch' defects, with defective dies distributed both in a frequently occurred regional pattern and in a long narrow area on the wafer map."
+	  },
+	  {
+		"img": "finetune_data/32164.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This frequently occurred regional defect pattern may be caused by particle pollution or uneven heating, resulting in the classification as a 'Loc' defect."
+	  },
+	  {
+		"img": "finetune_data/33721.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "The defective dies randomly occur in this wafer map, showing a 'Random' defect pattern."
+	  },
+	  {
+		"img": "finetune_data/35031.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Edge loc' and 'Scratch' defects, with defective dies distributed both in a regional pattern on the edge of the wafer map and in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/36280.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "This defect exhibits a mixed pattern of 'Edge ring' and 'Scratch' defects, with defective dies distributed both around the circle of the wafer map and in a long narrow area."
+	  },
+	  {
+		"img": "finetune_data/37172.png",
+		"prompt": "What is the defect in this wafer map?",
+		"label": "The defective dies are distributed in a long narrow area, which may be caused by mechanical and foreign body injury, resulting in the classification as 'Scratch' defect."
+	  }
+]
