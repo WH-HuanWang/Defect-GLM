@@ -108,12 +108,12 @@ python web_demo.py --from_pretrained checkpoints/checkpoint_WaferGLM_6000
 }
 
 @misc{Wang2023Defect-GLM,
-      title={A Large-Scale Visual-Language Model for Industrial Defect Monitoring}, 
+      title={Large-scale Visual Language Model Boosted by Contrast Domain Adaptation for Intelligent Industrial Visual Monitoring}, 
       author={Huan Wang, Chenxi Li, and Yan-Fu Li*},
       year={2023},
-      publisher = {GitHub},
-      journal = {GitHub repository},
-      howpublished = {\url{https://github.com/WH-HuanWang/Defect-GLM}},
+      publisher = {IEEE},
+      journal = {IEEE Transactions on Industrial Informatics},
+      howpublished = {\url{https://ieeexplore.ieee.org/document/10666846}},
 }
 ```
 
